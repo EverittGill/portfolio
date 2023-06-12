@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Header from "./components/header";
+import Portfolio from "./components/portfolio";
 
 // function App() {
 //   return (
@@ -26,10 +27,12 @@ import Header from "./components/header";
 // export default App;
 
 
-function Portfolio () {
+function App () {
   return (
-    <Header />
+    <>
+    <Portfolio />
+    </>
   )
 }
 
-export default Portfolio;
+export default App;
