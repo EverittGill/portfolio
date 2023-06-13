@@ -2,6 +2,10 @@
 // import './App.css';
 
 import Portfolio from "./components/portfolio";
+import Footer from './components/footer'
+import Header from './components/header'
+import Container from "./components/container";
+
 
 
 // function App() {
@@ -31,7 +35,9 @@ import Portfolio from "./components/portfolio";
 function App () {
   return (
     <>
+    <Header />
     <Portfolio />
+    <Footer />
     </>
   )
 }

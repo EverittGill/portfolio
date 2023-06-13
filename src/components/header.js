@@ -6,6 +6,7 @@ function Header () {
 
     <section class="sub-heading">
         <div>
+            
             <h2 class="sub-heading-text" id="name">Everitt Gill</h2>
         </div>
     </section>
