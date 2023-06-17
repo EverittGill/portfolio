@@ -1,28 +1,30 @@
 
 //import all other components
-import Container from "./container";
-import Mywork from "./mywork";
-import About from "./about";
-import Resume from "./resume"
-import Contact from "./contact"
-import Portfolio from "./portfolio";
+// import Projects from "./pages/Projects";
+// import About from "./pages/About";
+// import Resume from "./pages/Resume"
+// import Contact from "./pages/Contact"
+// import Portfolio from "./Portfolio";
 
-function Navigation () {
 
-    const renderPage = () => {
-        switch (currentPage.name) {
-          case 'about me':
-            return <About />;
-          case 'porfolio':
-            return <Portfolio />;
-          case 'contact':
-            return <Contact />;
-          case 'resume':
-            return <Resume />;
-          default:
-            return <About />;
-        }
-      };
+
+
+function Navigation ({currentPage, handlePageChange}) {
+
+    // const renderPage = () => {
+    //     switch (currentPage) {
+    //       case 'about me':
+    //         return <About />;
+    //       case 'porfolio':
+    //         return <Portfolio />;
+    //       case 'contact':
+    //         return <Contact />;
+    //       case 'resume':
+    //         return <Resume />;
+    //       default:
+    //         return <About />;
+    //     }
+    //   };
 
 // remove image from nav bar and put it in the header
     return (
@@ -30,10 +32,10 @@ function Navigation () {
         <nav>
         <div class="container-top">
          <ul class="nav-items">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#my-work">My Work</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-me" onClick={ () => handlePageChange ("about me")} >About Me</a></li>
+            <li><a href="#my-work" onClick={ () => handlePageChange ("projects")}>projects</a></li>
+            <li><a href="#resume" onClick={ () => handlePageChange ("contact")} >Contact</a></li>
+            <li><a href="#contact" onClick={ () => handlePageChange ("resume")} >Resume</a></li>
          </ul>
         </div>
     </nav>
@@ -44,30 +46,30 @@ function Navigation () {
 export default Navigation;
 
 
-function Page({ currentPage }) {
+// function Page({ currentPage }) {
 
-    const renderPage = () => {
-      switch (currentPage.name) {
-        case 'about me':
-          return <About />;
-        case 'portfolio':
-          return <Portfolio />;
-        case 'contact':
-          return <Contact />;
-        case 'resume':
-          return <Resume />;
-        default:
-          return <About />;
-      }
-    };
+//     const renderPage = () => {
+//       switch (currentPage.name) {
+//         case 'about me':
+//           return <About />;
+//         case 'portfolio':
+//           return <Portfolio />;
+//         case 'contact':
+//           return <Contact />;
+//         case 'resume':
+//           return <Resume />;
+//         default:
+//           return <About />;
+//       }
+//     };
   
-    return (
-      <section>
-        <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
-        <PageContent>{renderPage()}</PageContent>
-      </section>
-    );
-  }
+//     return (
+//       <section>
+//         <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
+//         <PageContent>{renderPage()}</PageContent>
+//       </section>
+//     );
+//   }
 
 
 

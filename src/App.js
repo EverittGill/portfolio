@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Portfolio from "./components/portfolio";
-import Footer from './components/footer'
-import Header from './components/header'
-import Container from "./components/container";
+import Portfolio from "./components/Portfolio";
+import Footer from './components/Footer'
+import Header from './components/Header'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
