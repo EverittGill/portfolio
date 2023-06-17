@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-// import './App.css';
 
 import Portfolio from "./components/Portfolio";
 import Footer from './components/Footer'

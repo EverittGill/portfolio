@@ -1,54 +1,113 @@
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+function Projects() {
+    return (
+        <div className="wrapper">
+          <Card
+            img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            title="The Everyday Salad"
+            description="Take your boring salads up a knotch. This recipe is perfect for lunch
+              and only contains 5 ingredients!"
+          />
+    
+          <Card
+            img="https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            title="Simple Risotto"
+            description="Fear Risotto no more! This simple recipe is perfect for family dinners."
+          />
+    
+          <Card
+            img="https://images.unsplash.com/photo-1529928520614-7c76e2d99740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            title="Baked Cod with Vegetables"
+            description="Baked Cod with Vegetables. 30 minute meal!"
+          />
+        </div>
+      );
+    }
+    
+    function Card(props) {
+      return (
+        <div className="card">
+          <div className="card__body">
+            <img src={props.img} class="card__image" />
+            <h2 className="card__title">{props.title}</h2>
+            <p className="card__description">{props.description}</p>
+          </div>
+          <button className="card__btn">View Recipe</button>
+        </div>
+      );
+    }
 
-function GroupExample() {
-  return (
-    <CardGroup>
-      <Card>
-        <Card.Img variant="top" src="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup>
-  );
-}
 
-export default GroupExample;
+
+export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import Card from 'react-bootstrap/Card';
+// import CardGroup from 'react-bootstrap/CardGroup';
+
+// function GroupExample() {
+//   return (
+//     <CardGroup>
+//       <Card>
+//         <Card.Img variant="top" src="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true" />
+//         <Card.Body>
+//           <Card.Title>Card title</Card.Title>
+//           <Card.Text>
+//             This is a wider card with supporting text below as a natural lead-in
+//             to additional content. This content is a little bit longer.
+//           </Card.Text>
+//         </Card.Body>
+//         <Card.Footer>
+//           <small className="text-muted">Last updated 3 mins ago</small>
+//         </Card.Footer>
+//       </Card>
+//       <Card>
+//         <Card.Img variant="top" src="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true" />
+//         <Card.Body>
+//           <Card.Title>Card title</Card.Title>
+//           <Card.Text>
+//             This card has supporting text below as a natural lead-in to
+//             additional content.{' '}
+//           </Card.Text>
+//         </Card.Body>
+//         <Card.Footer>
+//           <small className="text-muted">Last updated 3 mins ago</small>
+//         </Card.Footer>
+//       </Card>
+//       <Card>
+//         <Card.Img variant="top" src="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true" />
+//         <Card.Body>
+//           <Card.Title>Card title</Card.Title>
+//           <Card.Text>
+//             This is a wider card with supporting text below as a natural lead-in
+//             to additional content. This card has even longer content than the
+//             first to show that equal height action.
+//           </Card.Text>
+//         </Card.Body>
+//         <Card.Footer>
+//           <small className="text-muted">Last updated 3 mins ago</small>
+//         </Card.Footer>
+//       </Card>
+//     </CardGroup>
+//   );
+// }
+
+// export default GroupExample;
 
 
 
