@@ -58,7 +58,18 @@
 	 grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
 	 gap: 2rem;
 	 justify-content: center;
+   margin-top: 2rem;
 }
+
+.wrapper-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
  .card {
 	 overflow: hidden;
 	 box-shadow: 0 2px 20px #e1e5ee;
@@ -80,23 +91,100 @@
  .card__description {
 	 padding: 0 1rem;
 }
+
+.card__link {
+ display: flex;
+  justify-content: center;
+}
+
+
  .card__btn {
 	 padding: 1rem;
 	 font-family: inherit;
 	 font-weight: bold;
 	 font-size: 1rem;
 	 margin: 1rem;
-	 border: 2px solid #d50000;
+	 border: 2px solid #329ea1;
 	 background: transparent;
-	 color: #d50000;
+	 color: #329ea1;
 	 border-radius: 0.2rem;
+   /* display: inline-block;
+    text-decoration: none;
+    align-items: center; */
 	 transition: background 200ms ease-in, color 200ms ease-in;
 }
  .card:hover {
 	 transform: scale(1.02);
 }
  .card:hover .card__btn {
-	 background: #d50000;
+	 background: #329ea1;
 	 color: white;
 }
  
+/* end css for project cards */
+
+
+
+/* css for the contact me component */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form-wrapper {
+  width: 50%;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* end css for the contact me component */

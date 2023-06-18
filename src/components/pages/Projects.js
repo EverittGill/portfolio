@@ -4,43 +4,49 @@ function Projects() {
         <div className="wrapper">
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true"
-            title="The Everyday Salad"
+            title="The Vault"
             description="Take your boring salads up a knotch. This recipe is perfect for lunch
               and only contains 5 ingredients!"
+            link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true"
-            title="Simple Risotto"
+            title="Soccer Betting Game"
             description="Fear Risotto no more! This simple recipe is perfect for family dinners."
+            link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true"
-            title="Baked Cod with Vegetables"
+            title="Project 3 coming soon"
             description="Baked Cod with Vegetables. 30 minute meal!"
+            link="https://github.com/settings/profile"
           />
 
         </div>
         <br></br>
-        <div className="wrapper">
+        <div className="wrapper-2">
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true"
-            title="The Everyday Salad"
+            title="Weather Dashboard"
             description="Take your boring salads up a knotch. This recipe is perfect for lunch
               and only contains 5 ingredients!"
+              link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true"
-            title="Simple Risotto"
+            title="Text Editor"
             description="Fear Risotto no more! This simple recipe is perfect for family dinners."
+            link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true"
-            title="Baked Cod with Vegetables"
+            title=""
             description="Baked Cod with Vegetables. 30 minute meal!"
+            link="https://github.com/settings/profile"
           />
 
         </div>
@@ -50,14 +56,23 @@ function Projects() {
     
     function Card(props) {
       return (
+        <>
         <div className="card">
+            {/* add an anchor anchor tag that turns this card into a link */}
           <div className="card__body">
             <img src={props.img} class="card__image" />
             <h2 className="card__title">{props.title}</h2>
             <p className="card__description">{props.description}</p>
           </div>
-          <button className="card__btn">View Recipe</button>
+          <div className="card__link">
+          <a href={props.link} target=""> 
+          <button className="card__btn">
+            View Project
+            </button>
+            </a>
+            </div>
         </div>
+        </>
       );
     }
 
