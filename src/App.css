@@ -188,3 +188,82 @@ button[type='submit']:hover {
 }
 
 /* end css for the contact me component */
+
+
+
+/* css for the footer */
+
+.site-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.h2-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-items li {
+  margin: 0 10px;
+}
+
+.contact-items li a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-items li a:hover {
+  color: #000;
+}
+
+.contact-items li a:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.contact-items li a[href^='mailto:']:before {
+  background-image: url(''); /* Replace with your email icon */
+}
+
+.contact-items li a[href^='https://github.com/']:before {
+  background-image: url(''); /* Replace with your GitHub icon */
+}
+
+.contact-items li a[href^='https://www.linkedin.com/in/']:before {
+  background-image: url(''); /* Replace with your LinkedIn icon */
+}
+
+.contact-items li a[href^='tel:']:before {
+  background-image: url(''); /* Replace with your phone icon */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* end css for footer */

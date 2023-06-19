@@ -5,7 +5,7 @@
 function About () {
     return (
         
-    <section class="site-section" id="about-me">
+    <section class="about-me-bio" id="about-me">
         <h2>About Me</h2>
         <div>
         <p id="about-me-text">I am a versatile and dynamic professional with a passion for sales, web development, and cooking. With over 5 years of experience in sales, I have honed my skills in relationship building and problem-solving, consistently exceeding my targets and delivering outstanding results. My expertise in web development allows me to bring a unique and innovative approach to sales, using technology to improve the customer experience.

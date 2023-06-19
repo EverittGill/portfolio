@@ -6,6 +6,15 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+
+
+
+
+// Or, if you prefer brand icons:
+// import { faEnvelope, faGithub, faLinkedin, faPhone } from '@fortawesome/free-brands-svg-icons';
+
+
 
 
 
