@@ -1,5 +1,5 @@
 import { Figure } from "react-bootstrap";
-import { Image } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 
 
 // function About() {
