@@ -1,6 +1,8 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 // import { faEnvelope, faGithub, faLinkedin, faPhone } from '@fortawesome/free-solid-svg-icons';
 // Or, if you prefer brand icons:
 // import { faEnvelope, faGithub, faLinkedin, faPhone } from '@fortawesome/free-brands-svg-icons';
@@ -16,21 +18,21 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 function Footer() {
   return (
     <>
-      {/* ... your code ... */}
-
+    
       <ul className="contact-items" id="contact">
         <li>
-          <a href="mailto:eg.everittgill@gmail.com">
-          <FontAwesomeIcon icon={ faGithub } size="lg" />
+          <a href="https://www.instagram.com/everitt_gill/">
+          <FontAwesomeIcon icon={faInstagram} size="2xl" />
           </a>
         </li>
         <li>
           <a href="https://github.com/EverittGill">
+          <FontAwesomeIcon icon={ faGithub } size="2xl" />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/everitt-gill-574226a0/">
-            {/* <FontAwesomeIcon icon={faLinkedin} /> */}
+          <FontAwesomeIcon icon={ faLinkedin } size="2xl" />
           </a>
         </li>
         <li>

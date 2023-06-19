@@ -39,6 +39,38 @@
 
 
 
+/* css for the header component */
+
+.header {
+  text-align: center;
+}
+
+.header-caption {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.2s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
 /* css for the projects page */
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
@@ -267,3 +299,6 @@ footer p {
 }
 
 /* end css for footer */
+
+
+
