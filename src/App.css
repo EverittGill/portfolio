@@ -67,6 +67,33 @@
 
 
 
+/* css for navigation component */
+
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  color: #fff;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation .nav-link {
+    display: none;
+  }
+
+  }
+
+
+
+/* end css for navigation component */
+
 
 
 
@@ -210,21 +237,21 @@ p {
 }
 
 button[type='submit'] {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 10px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 4px;
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid #329ea1;
+  background: transparent;
+  color: #329ea1;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
 }
 
-button[type='submit']:hover {
-  background-color: #45a049;
+button[type='submit']:hover { 
+  background: #329ea1;
+  color: white;
 }
 
 /* end css for the contact me component */
@@ -279,21 +306,21 @@ button[type='submit']:hover {
   background-position: center;
 }
 
-.contact-items li a[href^='mailto:']:before {
-  background-image: url(''); /* Replace with your email icon */
+/* .contact-items li a[href^='mailto:']:before {
+  background-image: url(''); 
 }
 
 .contact-items li a[href^='https://github.com/']:before {
-  background-image: url(''); /* Replace with your GitHub icon */
+  background-image: url(''); 
 }
 
 .contact-items li a[href^='https://www.linkedin.com/in/']:before {
-  background-image: url(''); /* Replace with your LinkedIn icon */
+  background-image: url(''); 
 }
 
 .contact-items li a[href^='tel:']:before {
-  background-image: url(''); /* Replace with your phone icon */
-}
+  background-image: url(''); Replace with your phone icon */
+/* } */
 
 footer {
   background-color: #333;
@@ -306,7 +333,12 @@ footer p {
   margin: 0;
 }
 
-/* end css for footer */
 
-
-
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}

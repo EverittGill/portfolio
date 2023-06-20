@@ -30,22 +30,21 @@ function Projects() {
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true"
             title="Weather Dashboard"
-            description="Take your boring salads up a knotch. This recipe is perfect for lunch
-              and only contains 5 ingredients!"
+            description="!"
               link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true"
             title="Text Editor"
-            description="Fear Risotto no more! This simple recipe is perfect for family dinners."
+            description="Just another text editor. It works!"
             link="https://github.com/settings/profile"
           />
     
           <Card
             img="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true"
-            title=""
-            description="Baked Cod with Vegetables. 30 minute meal!"
+            title="project 6 coming soon"
+            description="Another example of my work. Don't forget to give me a call!"
             link="https://github.com/settings/profile"
           />
 

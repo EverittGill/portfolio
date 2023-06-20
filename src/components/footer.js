@@ -18,7 +18,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
   return (
     <>
-    
+    <div className="footer">
       <ul className="contact-items" id="contact">
         <li>
           <a href="https://www.instagram.com/everitt_gill/">
@@ -35,13 +35,8 @@ function Footer() {
           <FontAwesomeIcon icon={ faLinkedin } size="2xl" />
           </a>
         </li>
-        <li>
-          <a href="tel:+17068184445">
-          </a>
-        </li>
       </ul>
-
-      {/* ... your code ... */}
+    </div>
     </>
   );
 }
