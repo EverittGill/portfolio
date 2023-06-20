@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/everitt-gill-react-portfolio/static/css/main.36a4a4b7.css",
-    "main.js": "/everitt-gill-react-portfolio/static/js/main.9a5cd7db.js",
+    "main.js": "/everitt-gill-react-portfolio/static/js/main.2b789154.js",
     "static/js/787.4655a8c4.chunk.js": "/everitt-gill-react-portfolio/static/js/787.4655a8c4.chunk.js",
+    "static/media/The-vault-screenshot.png": "/everitt-gill-react-portfolio/static/media/The-vault-screenshot.fc6ab6012c8de09f0007.png",
+    "static/media/E-commerce-pic.jpeg": "/everitt-gill-react-portfolio/static/media/E-commerce-pic.1150cab4eba5cafdf21a.jpeg",
+    "static/media/first-page-screenshot.png": "/everitt-gill-react-portfolio/static/media/first-page-screenshot.0c9b3583a00b1fe3e0f1.png",
+    "static/media/Everitt-Gill-Resume.jpg": "/everitt-gill-react-portfolio/static/media/Everitt-Gill-Resume.98b6a965b204e8f9d0a9.jpg",
     "index.html": "/everitt-gill-react-portfolio/index.html",
     "main.36a4a4b7.css.map": "/everitt-gill-react-portfolio/static/css/main.36a4a4b7.css.map",
-    "main.9a5cd7db.js.map": "/everitt-gill-react-portfolio/static/js/main.9a5cd7db.js.map",
+    "main.2b789154.js.map": "/everitt-gill-react-portfolio/static/js/main.2b789154.js.map",
     "787.4655a8c4.chunk.js.map": "/everitt-gill-react-portfolio/static/js/787.4655a8c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36a4a4b7.css",
-    "static/js/main.9a5cd7db.js"
+    "static/js/main.2b789154.js"
   ]
 }
