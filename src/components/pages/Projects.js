@@ -42,7 +42,8 @@ function Projects() {
           />
     
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true"
+          // add a path to the image. use the image in the assets folder. use the image in the images folder. use first-page-screenshot.png
+            img="../../assets/images/first-page-screenshot.png"
             title="project 6 coming soon"
             description="Another example of my work. Don't forget to give me a call!"
             link="https://github.com/settings/profile"
