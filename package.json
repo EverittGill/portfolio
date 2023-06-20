@@ -1,8 +1,8 @@
 {
-  "homepage": "https://everittgill.github.io/everitt-gill-react-portfolio/",
+  "homepage": "https://everittgill.github.io/Everitt-Gill-React-Portfolio/",
   "name": "everitt-gill-react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
