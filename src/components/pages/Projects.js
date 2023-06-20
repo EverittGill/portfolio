@@ -1,4 +1,9 @@
 import project6img from "../../assets/images/E-commerce-pic.jpeg";
+import project5img from "../../assets/images/first-page-screenshot.png";
+import project4img from "../../assets/images/The-vault-screenshot.png";
+import project3img from "../../assets/images/E-commerce-pic.jpeg";
+import project2img from "../../assets/images/first-page-screenshot.png"; 
+import project1img from "../../assets/images/The-vault-screenshot.png";
 
 
 
@@ -9,7 +14,7 @@ function Projects() {
         <>
         <div className="wrapper">
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true"
+            img= { project1img }
             title="The Vault"
             description="Take your boring salads up a knotch. This recipe is perfect for lunch
               and only contains 5 ingredients!"
@@ -17,14 +22,14 @@ function Projects() {
           />
     
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true"
+            img= { project2img }
             title="Soccer Betting Game"
             description="Fear Risotto no more! This simple recipe is perfect for family dinners."
             link="https://github.com/settings/profile"
           />
     
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-React-Portfolio/blob/main/src/assets/images/E-commerce-pic.jpeg?raw=true"
+            img= { project3img }
             title="Project 3 coming soon"
             description="Baked Cod with Vegetables. 30 minute meal!"
             link="https://github.com/settings/profile"
@@ -34,14 +39,14 @@ function Projects() {
         <br></br>
         <div className="wrapper-2">
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/The-vault-screenshot.png?raw=true"
+            img= { project4img }
             title="Weather Dashboard"
             description="!"
               link="https://github.com/settings/profile"
           />
     
           <Card
-            img="https://github.com/EverittGill/Everitt-Gill-Webiste/blob/main/images/first-page-screenshot.png?raw=true"
+            img= { project5img}
             title="Text Editor"
             description="Just another text editor. It works!"
             link="https://github.com/settings/profile"
