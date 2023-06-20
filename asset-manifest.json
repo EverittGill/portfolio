@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/everitt-gill-react-portfolio/static/css/main.36a4a4b7.css",
+    "main.js": "/everitt-gill-react-portfolio/static/js/main.9a5cd7db.js",
+    "static/js/787.4655a8c4.chunk.js": "/everitt-gill-react-portfolio/static/js/787.4655a8c4.chunk.js",
+    "index.html": "/everitt-gill-react-portfolio/index.html",
+    "main.36a4a4b7.css.map": "/everitt-gill-react-portfolio/static/css/main.36a4a4b7.css.map",
+    "main.9a5cd7db.js.map": "/everitt-gill-react-portfolio/static/js/main.9a5cd7db.js.map",
+    "787.4655a8c4.chunk.js.map": "/everitt-gill-react-portfolio/static/js/787.4655a8c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36a4a4b7.css",
+    "static/js/main.9a5cd7db.js"
+  ]
+}
