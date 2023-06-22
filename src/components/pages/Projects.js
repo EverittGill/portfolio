@@ -16,23 +16,22 @@ function Projects() {
           <Card
             img= { project1img }
             title="The Vault"
-            description="Take your boring salads up a knotch. This recipe is perfect for lunch
-              and only contains 5 ingredients!"
-            link="https://github.com/settings/profile"
+            description="A password saver for all your passwords"
+            link="https://thegoldenvault.herokuapp.com"
           />
     
           <Card
             img= { project2img }
             title="Soccer Betting Game"
-            description="Fear Risotto no more! This simple recipe is perfect for family dinners."
-            link="https://github.com/settings/profile"
+            description="No matter how you bet you will win and lose."
+            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
     
           <Card
             img= { project3img }
             title="Project 3 coming soon"
-            description="Baked Cod with Vegetables. 30 minute meal!"
-            link="https://github.com/settings/profile"
+            description="It's in production now"
+            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
 
         </div>
@@ -41,15 +40,15 @@ function Projects() {
           <Card
             img= { project4img }
             title="Weather Dashboard"
-            description="!"
-              link="https://github.com/settings/profile"
+            description="For the weather near you"
+              link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
     
           <Card
             img= { project5img}
             title="Text Editor"
             description="Just another text editor. It works!"
-            link="https://github.com/settings/profile"
+            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
     
           <Card
@@ -57,7 +56,7 @@ function Projects() {
             img= { project6img }
             title="project 6 coming soon"
             description="Another example of my work. Don't forget to give me a call!"
-            link="https://github.com/settings/profile"
+            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
 
         </div>
