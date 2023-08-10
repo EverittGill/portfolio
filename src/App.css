@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -73,8 +76,8 @@
 .navigation {
   display: flex;
   justify-content: space-around;
-  background-color: lightblue;
-  color: #fff;
+  /* background-color: lightblue; */
+  /* color: #fff; */
   padding: 10px;
 }
 
@@ -85,7 +88,7 @@
   }
 
   .navigation .nav-link {
-    display: none;
+    /* display: none; */
   }
 
   }
