@@ -8,9 +8,9 @@ function Resume() {
     <div>
     <section class="site-section" id="resume">
         <h2 class="h2-header">My Resume</h2>
-        <Container className="d-flex justify-content-center">
+        <Container className="d-flex justify-center max-w-full">
           {/* add an href in an anchor tag that has the file Everitt-Gill-Resume */}
-          <a href="../assets/Everitt-Gill-Resume" download="Everitt-Gill-Resume.pdf">
+          <a href="../assets/Everitt-Gill-Resume" download="Everitt-Gill-Resume.pdf" style={{display: 'flex', justifyContent: 'center', width: '100%'}}>
             <img className='image-fluid resume-image' src= { ResumeImg } id="resume-image" alt="Everitt Gill resume" />
           </a>
           </Container>
