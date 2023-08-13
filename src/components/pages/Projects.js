@@ -9,6 +9,7 @@ import project1img from "../../assets/images/The-vault-screenshot.png";
 
 
 
+
 function Projects() {
     return (
         <>
@@ -29,9 +30,9 @@ function Projects() {
     
           <Card
             img= { project3img }
-            title="Project 3 coming soon"
-            description="It's in production now"
-            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
+            title="Market Dash"
+            description="Farmers market vendor marketing tool powered by AI"
+            link="https://market-dash-d97ba637857f.herokuapp.com/"
           />
 
         </div>
@@ -70,7 +71,7 @@ function Projects() {
         <div className="card">
             {/* add an anchor anchor tag that turns this card into a link */}
           <div className="card__body">
-            <img src={props.img} class="card__image" />
+            <img src={props.img} class="card__image" alt="project header"/>
             <h2 className="card__title">{props.title}</h2>
             <p className="card__description">{props.description}</p>
           </div>
