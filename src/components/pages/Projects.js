@@ -36,31 +36,6 @@ function Projects() {
           />
 
         </div>
-        <br></br>
-        <div className="wrapper-2">
-          <Card
-            img= { project4img }
-            title="Weather Dashboard"
-            description="For the weather near you"
-              link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
-          />
-    
-          <Card
-            img= { project5img}
-            title="Text Editor"
-            description="Just another text editor. It works!"
-            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
-          />
-    
-          <Card
-          // add a path to the image. use the image in the assets folder. use the image in the images folder. use first-page-screenshot.png
-            img= { project6img }
-            title="project 6 coming soon"
-            description="Another example of my work. Don't forget to give me a call!"
-            link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
-          />
-
-        </div>
         </>
       );
     }
