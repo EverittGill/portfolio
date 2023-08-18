@@ -1,8 +1,5 @@
-import project6img from "../../assets/images/E-commerce-pic.jpeg";
-import project5img from "../../assets/images/first-page-screenshot.png";
-import project4img from "../../assets/images/The-vault-screenshot.png";
-import project3img from "../../assets/images/E-commerce-pic.jpeg";
-import project2img from "../../assets/images/first-page-screenshot.png"; 
+import project3img from "../../assets/images/first-page-screenshot.png";
+import project2img from "../../assets/images/Market-Dash-Small.png"; 
 import project1img from "../../assets/images/The-vault-screenshot.png";
 
 
@@ -17,23 +14,24 @@ function Projects() {
           <Card
             img= { project1img }
             title="The Vault"
-            description="A password saver for all your passwords"
-            link="https://thegoldenvault.herokuapp.com"
+            description="A password saver for all your passwords secured with J-crypt"
+            link="https://the-vault-53143ce607a9.herokuapp.com/"
+          />
+
+          <Card
+            img= { project2img }
+            title="Market Dash"
+            description="BEST PROJECT! A farmers market vendor marketing tool powered by AI"
+            link="https://market-dash-d97ba637857f.herokuapp.com/"
           />
     
           <Card
-            img= { project2img }
+            img= { project3img }
             title="Soccer Betting Game"
             description="No matter how you bet you will win and lose."
             link="https://everittgill.github.io/Soccer-Betting-Mini-Game/"
           />
     
-          <Card
-            img= { project3img }
-            title="Market Dash"
-            description="Farmers market vendor marketing tool powered by AI"
-            link="https://market-dash-d97ba637857f.herokuapp.com/"
-          />
 
         </div>
         </>
@@ -45,8 +43,8 @@ function Projects() {
         <>
         <div className="card">
             {/* add an anchor anchor tag that turns this card into a link */}
-          <div className="card__body">
-            <img src={props.img} class="card__image" alt="project header"/>
+          <div className="card__body h-100 w-90">
+          <img src={props.img} className="card__image w-full h-full object-cover object-center" alt="project header"/>
             <h2 className="card__title">{props.title}</h2>
             <p className="card__description">{props.description}</p>
           </div>
