@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Pdf from '../../assets/Everitt_Gill_Resume_B&W_2023.docx.pdf';  
-import ResumeImg from '../../assets/images/Everitt_Gill_Resume_B&W_2023.docx.jpg';
+import Pdf from '../../assets/Everitt_Gill_Resume_B&W_2023.docx.pdf';
+import ResumeImg from '../../assets/images/Everitt_Gill_Resume_B&W_2023.docx-1.jpg';
 
 function Resume() {
   return (
