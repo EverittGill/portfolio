@@ -21,6 +21,8 @@ export default function Example() {
       </div>
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-oxygen">Get in touch</h2>
+        <p className="mt-4 text-gray-500">eg.everittgill@gmail.com</p>
+        <p className="mt-4 text-gray-500">+1 (706) - 818 - 4445</p>
       </div>
       <form onSubmit={() => {
         window.location.href = 'mailto:eg.everittgill@gmail.com?subject=' + formState.subject + '&body=' + formState.message + "      Reach me at " + formState.phone
