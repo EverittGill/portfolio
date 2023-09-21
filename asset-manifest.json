@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Everitt-Gill-React-Portfolio/static/css/main.6863b67a.css",
-    "main.js": "/Everitt-Gill-React-Portfolio/static/js/main.b8e875ae.js",
+    "main.css": "/Everitt-Gill-React-Portfolio/static/css/main.dcb72a88.css",
+    "main.js": "/Everitt-Gill-React-Portfolio/static/js/main.125ae758.js",
     "static/js/787.4655a8c4.chunk.js": "/Everitt-Gill-React-Portfolio/static/js/787.4655a8c4.chunk.js",
     "static/media/The-vault-screenshot.png": "/Everitt-Gill-React-Portfolio/static/media/The-vault-screenshot.fc6ab6012c8de09f0007.png",
     "static/media/Market-Dash-Small.png": "/Everitt-Gill-React-Portfolio/static/media/Market-Dash-Small.2d054f29f9f30449f96e.png",
@@ -10,12 +10,12 @@
     "static/media/Everitt_Gill_Resume_2_Pages-page-002.jpg": "/Everitt-Gill-React-Portfolio/static/media/Everitt_Gill_Resume_2_Pages-page-002.e7db4999921a5415a5d1.jpg",
     "static/media/Everitt_Gill_Resume_2_Pages.pdf": "/Everitt-Gill-React-Portfolio/static/media/Everitt_Gill_Resume_2_Pages.793e6454a38c59094c35.pdf",
     "index.html": "/Everitt-Gill-React-Portfolio/index.html",
-    "main.6863b67a.css.map": "/Everitt-Gill-React-Portfolio/static/css/main.6863b67a.css.map",
-    "main.b8e875ae.js.map": "/Everitt-Gill-React-Portfolio/static/js/main.b8e875ae.js.map",
+    "main.dcb72a88.css.map": "/Everitt-Gill-React-Portfolio/static/css/main.dcb72a88.css.map",
+    "main.125ae758.js.map": "/Everitt-Gill-React-Portfolio/static/js/main.125ae758.js.map",
     "787.4655a8c4.chunk.js.map": "/Everitt-Gill-React-Portfolio/static/js/787.4655a8c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6863b67a.css",
-    "static/js/main.b8e875ae.js"
+    "static/css/main.dcb72a88.css",
+    "static/js/main.125ae758.js"
   ]
 }
