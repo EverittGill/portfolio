@@ -1,6 +1,6 @@
 {
-  "homepage": "https://everittgill.github.io/Everitt-Gill-React-Portfolio/",
-  "name": "everitt-gill-react-portfolio",
+  "homepage": "https://everittgill.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
