@@ -3,7 +3,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Pdf from '../../assets/Everitt_Gill_Resume_Fall2023.pdf';
 import ResumeImg1 from '../../assets/images/Everitt_Gill_Resume_Fall_2023.jpeg';
-import ResumeImg2 from '../../assets/images/Everitt_Gill_Resume_2_Pages-page-002.jpg';
 
 function Resume() {
   return (
@@ -11,6 +10,7 @@ function Resume() {
       <div>
         <section className="site-section" id="resume">
           <h2 className="h2-header">My Resume</h2>
+          <h6>Click To Download</h6>
           <Container className="justify-center max-w-full">
             <div className='flex flex-col md:flex-row'>
               <a 
