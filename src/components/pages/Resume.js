@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Pdf from '../../assets/Everitt_Gill_Resume_2_Pages.pdf';
-import ResumeImg1 from '../../assets/images/Everitt_Gill_Resume_2_Pages-page-001.jpg';
+import Pdf from '../../assets/Everitt_Gill_Resume_Fall2023.pdf';
+import ResumeImg1 from '../../assets/images/Everitt_Gill_Resume_Fall_2023.jpeg';
 import ResumeImg2 from '../../assets/images/Everitt_Gill_Resume_2_Pages-page-002.jpg';
 
 function Resume() {
@@ -16,7 +16,7 @@ function Resume() {
               <a 
                 className='flex flex-col md:flex-row justify-center items-center'
                 href={Pdf} 
-                download="Everitt_Gill_Resume_B&W_2023.docx.pdf" 
+                download="Everitt_Gill_Resume_Fall_2023.pdf" 
                 // style={{display: 'flex', justifyContent: 'center', width: '100%'}}
               >
                 <img 
@@ -25,12 +25,12 @@ function Resume() {
                   id="resume-image" 
                   alt="Everitt Gill resume" 
                 />
-                <img 
+                {/* <img 
                   className='image-fluid resume-image border-solid border-4 border-black rounded-lg md:w-1/2' 
                   src={ResumeImg2} 
                   id="resume-image" 
                   alt="Everitt Gill resume" 
-                />
+                /> */}
               </a>
             </div>
           </Container>
