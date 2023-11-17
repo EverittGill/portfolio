@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dcb72a88.css",
-    "main.js": "/portfolio/static/js/main.33b54458.js",
+    "main.js": "/portfolio/static/js/main.a3578310.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/The-vault-screenshot.png": "/portfolio/static/media/The-vault-screenshot.fc6ab6012c8de09f0007.png",
     "static/media/Market-Dash-Small.png": "/portfolio/static/media/Market-Dash-Small.2d054f29f9f30449f96e.png",
     "static/media/first-page-screenshot.png": "/portfolio/static/media/first-page-screenshot.0c9b3583a00b1fe3e0f1.png",
-    "static/media/Everitt_Gill_Resume_2_Pages-page-001.jpg": "/portfolio/static/media/Everitt_Gill_Resume_2_Pages-page-001.18c0709deea0bd5c4936.jpg",
-    "static/media/Everitt_Gill_Resume_2_Pages-page-002.jpg": "/portfolio/static/media/Everitt_Gill_Resume_2_Pages-page-002.e7db4999921a5415a5d1.jpg",
-    "static/media/Everitt_Gill_Resume_2_Pages.pdf": "/portfolio/static/media/Everitt_Gill_Resume_2_Pages.793e6454a38c59094c35.pdf",
+    "static/media/Everitt_Gill_Resume_Fall_2023.jpeg": "/portfolio/static/media/Everitt_Gill_Resume_Fall_2023.4b2d55e31cf39a75823d.jpeg",
+    "static/media/Everitt_Gill_Resume_Fall2023.pdf": "/portfolio/static/media/Everitt_Gill_Resume_Fall2023.87d01905e93772b8fe72.pdf",
     "index.html": "/portfolio/index.html",
     "main.dcb72a88.css.map": "/portfolio/static/css/main.dcb72a88.css.map",
-    "main.33b54458.js.map": "/portfolio/static/js/main.33b54458.js.map",
+    "main.a3578310.js.map": "/portfolio/static/js/main.a3578310.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcb72a88.css",
-    "static/js/main.33b54458.js"
+    "static/js/main.a3578310.js"
   ]
 }
